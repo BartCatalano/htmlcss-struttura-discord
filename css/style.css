@@ -77,9 +77,10 @@ width: 80%;
 .first-section{
     background-color: white;
 height: 240px;
+padding: 20px 0;
 /* DEBUG */
 border: 1px solid black;
-padding: 20px;
+
 }
 .first-raw{
     display: flex;
@@ -100,28 +101,14 @@ padding: 20px;
     background-color: pink;
 }
 /* SECONDA SEZIONE */
+.reverse{
+    flex-direction: row-reverse;
+}
 .second-section{
-    background-color: gray;
-height: 240px;
+    background-color: rgb(76, 75, 75);
+    height: 240px;
+padding: 20px 0;
 /* DEBUG */
 border: 1px solid black;
-padding: 20px;
 }
-.second-raw{
-    display: flex;
-    /* DEBUG */
-    height: 200px;
-}
-.second-col-small{
-    width: 70%;
-    /* debug */
-    border: 1px ridge black;
-    background-color: aqua;
-}
-.second-col-big{
-    width: 30%;
-    /* debug */
-    border: 1px ridge black;
-    background-color: pink;
-}
-
+/* SEZIONE GRANDE */
