@@ -26,7 +26,6 @@ img{
 
     background-color: rgb(210, 235, 211); 
     /* debug */
-    width: 80%;
    
 }
 .raw{   
@@ -72,3 +71,57 @@ width: 80%;
     height: 200px;
     background-color: pink;
 }
+
+/* SEZIONI CENTRALI */
+/* PRIMA SEZIONE */
+.first-section{
+    background-color: white;
+height: 240px;
+/* DEBUG */
+border: 1px solid black;
+padding: 20px;
+}
+.first-raw{
+    display: flex;
+    /* DEBUG */
+    border: 1px solid red;
+    height: 200px;
+}
+.first-col-big{
+    width: 70%;
+    /* debug */
+    border: 1px ridge black;
+    background-color: aqua;
+}
+.first-col-small{
+    width: 30%;
+    /* debug */
+    border: 1px ridge black;
+    background-color: pink;
+}
+/* SECONDA SEZIONE */
+.second-section{
+    background-color: gray;
+height: 240px;
+/* DEBUG */
+border: 1px solid black;
+padding: 20px;
+}
+.second-raw{
+    display: flex;
+    /* DEBUG */
+    height: 200px;
+}
+.second-col-small{
+    width: 70%;
+    /* debug */
+    border: 1px ridge black;
+    background-color: aqua;
+}
+.second-col-big{
+    width: 30%;
+    /* debug */
+    border: 1px ridge black;
+    background-color: pink;
+}
+
