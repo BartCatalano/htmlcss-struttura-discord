@@ -124,3 +124,26 @@ border: 1px solid black;
     
     border: 1px solid black;
 }
+/* footer */
+.footer-container{
+    background-color: black;
+}
+.footer-raw{
+    display: flex;
+ /* debug */
+ height: 350px;
+}
+.footer-col{
+    background-color: lightblue;
+width: calc(70% / 4);
+/* debug */
+border: 1px solid purple;
+height: 350px;
+}
+.footer-bigcol{
+    background-color: pink;
+    width: 30%;
+    /* debug */
+    border: 1px solid red;
+    height: 350px;
+}
