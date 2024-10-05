@@ -147,3 +147,29 @@ height: 350px;
     border: 1px solid red;
     height: 350px;
 }
+/* final-container */
+.final-container{
+    background-color: black;
+}
+.final-raw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+/* debug */
+border: 1px solid red;
+height: 100px;
+
+}
+.final-col{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    padding: 14px;
+    
+    /* debug */
+    border: 1px solid pink;
+
+
+}
