@@ -7,6 +7,9 @@
 img{
     max-width: 100%;
 }
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /* layout */
 .section{
     padding: 20px;
