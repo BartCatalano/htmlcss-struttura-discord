@@ -34,6 +34,7 @@ img{
 /* debug */
 background-color: orange;
 width: 80%;
+
 }
 .col-big{
     
@@ -87,6 +88,7 @@ border: 1px solid black;
     /* DEBUG */
     border: 1px solid red;
     height: 200px;
+    
 }
 .first-col-big{
     width: 70%;
